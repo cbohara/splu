@@ -5,6 +5,9 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+# Add simple form
+gem 'simple_form'
+
 # Add rails 12factor gem
 gem 'rails_12factor', group: :production
 
