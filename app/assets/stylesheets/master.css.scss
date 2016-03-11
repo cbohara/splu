@@ -5,7 +5,7 @@
 }
 
 .circle {
-    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     position: relative;
     border-radius: 100%;
@@ -68,6 +68,7 @@ h2 {
   color: black;
   font-family: 'chunkfiveroman', sans-serif;
   font-size: 20px;
+  text-align: right;
 }
 
 .logo:hover {
@@ -76,4 +77,23 @@ h2 {
 
 .about {
   font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 span {
+  font-family: 'chunkfiveroman', sans-serif;
+  color: #dddddd;
+}
+
+::selection {
+  background-color: #f84342;
 }
