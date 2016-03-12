@@ -8,26 +8,25 @@
 </head>
 <body>
   <header>
-    <div class="col-xs-3">
+    <div class="col-xs-2">
       <%= link_to root_path, class: 'logo' do %>
-        <div class="circle">
-          <br />
-          KEEP
-          <br />
-          ON
-          <br />
-          SWIMMING
-        </div>
-      <% end %>
+      <div class="circle">
+        <br />
+        KEEP
+        <br />
+        ON
+        <br />
+        SWIMMING
+      </div>
+    <% end %>
     </div>
-    <div class="col-sm-4 hidden-xs slogan">
-      Empowering quotes
+    <div class="col-xs-5 hidden-xs slogan">
+      When life hands you lemons...
     </div>
-    <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
-            <!-- Button trigger modal -->
+    <div class="col-xs-3 col-xs-offset-1 links">
+    <!-- Button trigger modal -->
     <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-    &nbsp;&nbsp;
-    <%= link_to 'About', about_path %>
+    <%= link_to'About', about_path %>
     </div>
   </header>
 
@@ -41,9 +40,9 @@
         </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-            <%= f.input :saying, label: "What is the saying you would like to add?", placeholder: "I woke up like this!" %>
+            <%= f.input :saying, label: "What saying would you like to add?", placeholder: "I woke up like this!" %>
             <br />
-            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Beyonce" %>
+            <%= f.input :author, label: "Who is the author of this quote?", placeholder: "Beyonce" %>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
