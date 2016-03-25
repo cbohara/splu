@@ -1,4 +1,4 @@
-Splu::Application.routes.draw do
+ =Splu::Application.routes.draw do
 
   root 'quotes#index'
 
