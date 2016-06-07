@@ -1,4 +1,4 @@
-# Splurty
+<b>Splurty</b>
 
 A database-powered quote generator with a slick, mobile-first design, built with Ruby on Rails, HTML5, CSS3, Github, and Heroku
 
